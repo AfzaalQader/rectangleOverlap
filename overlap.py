@@ -27,13 +27,9 @@ def point_check(pointX,pointY):
 #Right bottom corner coordinate (pointX1 + width2,pointY2 + height2)
 
 top_left = point_check(x2,y2)
-print(top_left)
 top_right = point_check(x2 + width2,y2)
-print(top_right)
 bottom_left = point_check(x2,y2 + height2)
-print(bottom_left)
 bottom_right = point_check(x2 + width2,y2 + height2)
-print(bottom_right)
 if(top_left == False or top_right == False or bottom_left == False or bottom_right == False):
 	print('Both Rectangles are overlaped')
 else:
